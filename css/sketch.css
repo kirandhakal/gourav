@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(203, 218, 218);
+    margin: 0;
+    padding: 0;
+ 
+ }
+ 
+  .slider {
+    height: 600px;
+    width: 600px;
+    
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.8s ease;
+  }
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
